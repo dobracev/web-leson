@@ -1,0 +1,53 @@
+fieldset:not(:last-child) div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 70px 10px 20px;
+}
+
+h1{
+    color: brown
+}
+select{
+    width: 605px;
+}
+textarea{
+    width: 600px;
+}
+fieldset{
+    width: 70%;
+    border: 2px rgb(0, 174, 255) solid;
+    background: rgb(0, 255, 221);
+    color: brown;
+    border-radius: 10px;
+}
+
+input{
+    width: 600px;
+    height: 30px;
+}
+.radio{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.radio div{
+    display: flex;
+    align-items: center;
+}
+#input{width: 12px;}
+button{
+    margin-top: 10px;
+    margin-left: 3px;
+    padding: 10px 15px;
+    background: linear-gradient(0deg, rgba(128,231,233,1) 0%, rgba(63,217,219,1) 100%);
+    color:brown;
+    border-radius:5px
+}
+legend{
+    color:rgb(0, 174, 255);
+    font-size: 20px;
+}
+fieldset:last-child div{
+    padding: 10px 70px 10px 20px;
+}
